@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Quiz Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #1a1a2e;
+            color: #eaeaea;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #b0b0b0;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            padding: 0.8rem 2.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a2e;
+            background-color: #00adb5;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #019ca3;
+            transform: translateY(-3px);
+        }
+        .btn:active {
+            transform: translateY(0);
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>alien within</h1>
+        <p>Discover which alien species reflects your personality. Launching soon!</p>
+        <button class="btn" onclick="alert('Game is launching soon!')">Notify Me</button>
+        <p class="footer">© 2025 AlienWithin Co.</p>
+    </div>
+</body>
+</html>
